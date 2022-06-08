@@ -1,0 +1,30 @@
+# MOST INFORMATION FOUND HERE {https://www.postgresql.org/docs/current/ddl-constraints.html}
+
+# DROP DATABASE [name] = removes a created database
+# CREATE DATABASE [name] = create a new database
+
+# CREATE TABLE [name] (
+#     [column name] datatype(length) column constraint,
+# );
+
+# ALTER TABLE users ADD last_login
+
+# DATATYPES -!-
+#   - Boolean
+#   - Character Type [char, varchar, text]
+#   - Numeric Type [integer, float]
+#   - Temporal Type [date, time, timestamp, interval]
+#   - UUID [stores Universally Unique Identifiers]
+#   - Array [stores array stings, numbers]
+#   - JSON [stores json data]
+#   - hstore [stores key-value pair]
+#   - Special [stores network address and geometric data]
+
+# COLUMN CONSTRAINTS -!-
+    # - Check Constraint [Basically If Statements]
+    # - NOT NULL Constraint [Column must not contain null value]
+    # - Unique Constraint [Data in this row or column must be unique throughout the table]
+    # - Primary Keys [Column or Columns can be used as a unique identifier]
+    # - Foreign Keys [Values in column must match values from row of another table]
+    # - Exclusion Constraint [Exclusion constraints ensure any two compared on specified columns
+    #     using specified operators, at least one operator comparison will return false or null]
